@@ -1,0 +1,487 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+}
+body{
+    margin:0px;
+    padding:0px;
+    background-color: black;
+    width: 100%;
+}
+.heading{
+    font: bolder 26px 'Otomanopee One' ,cursive;
+    color:white;
+    padding:10px 0;
+    margin:5px;
+    text-shadow: 2px 1px grey;
+}
+.paragraph{
+    font-family:'Otomanopee One' ,cursive;
+    font-size: 20px;
+    color:beige;
+}
+.center{
+    text-align: center;
+    font-family:'Otomanopee One' ,cursive;
+    color: white;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    top:0;
+    background-color:black;
+    position:relative;
+    cursor: pointer;
+}
+ #logo{
+     margin:2px auto;
+ }
+ #logo img{
+    height:150px;
+    margin:3px 3px;
+}
+.navbar ul{
+    display:flex;
+}
+.navbar ul li{
+    list-style: none;
+    font-family:'Otomanopee One' ,cursive;
+}
+.navbar ul li a{
+    text-decoration:none;
+    margin:2px auto;
+    padding:10px 18px;
+    font-family:'Otomanopee One' ,cursive;;
+    font-size: 18px;
+    color: white;
+}
+.navbar ul li a:hover{
+    background-color: red;
+    text-decoration: underline;
+}
+#home2{
+    height:300px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding:4px 200px; 
+    /* background-image: linear-gradient(rgb(157, 255, 0),white); */
+}
+#home3 h1{
+    animation: animie 5s ease-in 1s infinite alternate;
+}
+@keyframes animie{
+    0%{
+         color:black;
+    }
+    25%{
+         color:red;
+    }
+    50%{
+          color:rgba(240, 240, 23, 0.705);
+    }
+    75%{
+         color:rgba(86, 14, 153, 0.685)
+    }
+    100%{
+         color:rgba(240, 16, 191, 0.692);
+    }
+}
+.container1{
+    margin: 25px 30px;
+    display:flex;
+}
+.container1 .box{
+    padding:13px 17px;
+    margin:10px 15px;
+}
+.box .img1{
+    height:350px;
+    display:block;
+    margin:auto;
+}
+
+.box .img2{
+    height:300px;
+    width:500px;
+    display:block;
+    margin:auto;
+}
+.container1 .box1{
+    display:inline-block;
+    width:200px;
+}
+.temp{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    border:2px solid rgb(5, 5, 5);
+    margin:20px;
+    padding:40px 10px;
+    width:auto;
+    height:200px;
+    box-shadow:-6px -9px   10px blue;
+}
+.box3 img{
+    height:160px;
+    width:200px;
+    display:block;
+    margin:auto;
+}
+.fa{
+    color:white;
+}
+#home5{
+    height:300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home5 .box4 .paragraph{
+ font-size: 25px;
+}
+/* #home5::before{
+    content: "";
+    background: url(../img/dance7.jpg) no-repeat center center/cover;
+    position:absolute;
+    height:100%;
+    width:90%;
+    z-index:-1;
+    opacity:0.90;
+}*/
+.box4{
+    margin:3px 10px;
+    padding:6px 10px;
+    background-color: rgb(30, 28, 116);
+    width:auto;
+    height:200px;
+}
+/*.box4 img{
+    height:200px;
+    width:300px;
+}*/
+.btn1{
+   width:150px;
+   background-color: rgb(202, 19, 19);
+   color: rgb(8, 8, 8); 
+   font-family:'Otomanopee One' ,cursive;
+   font-size:25px;
+   padding:6px;
+   margin:55px 148px;
+   transition: box-shadow 1s, transform 1s;
+}
+.btn1:hover{
+    background-color: yellow;
+    color:black;
+    text-decoration:underline;
+}
+#home5 .btn1{
+    animation: animie1 5s ease-in 1s infinite alternate;
+}
+.btn1 a{
+    text-decoration:none;
+}
+@keyframes animie1{
+    0%{
+         background-color:rgb(55, 153, 16);
+    }
+    50%{
+        background-color:yellow;
+    }
+    100%{
+        background-color:rgba(138, 16, 209, 0.692);
+    }
+}
+#input{
+    font-size:20px;
+    font-family:'Otomanopee One' ,cursive;
+}
+#home9{
+    background-color: rgba(17, 0, 255, 0.582);
+    height:100px;
+}
+#home6{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height:850px;
+}
+#home6 h1{
+    margin-top:30px;
+}
+.box13{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5 img{
+    height:230px;
+    width:330px;
+    display:block;
+    padding:10px;
+    margin:20px;
+}
+#home7{
+    height:500px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#home7 h1{
+    margin:40px auto;
+}
+.box6{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box7 img{
+    display:block;
+    height:200px;
+    width:250px;
+    margin:20px 10px;
+    padding:10px 10px;
+    border-radius: 50%;
+}
+#home8{
+    height:770px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#home8::before{
+    content: "";
+    position: absolute;
+    background: url(../img/dance13.jpg)no-repeat center center/cover;
+    height:100%;
+    width: 100%;
+    z-index:-1;
+    opacity:0.3;
+}
+.box8{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:34px 34px;
+    padding:10px 30px;
+}
+.box8 h1{
+   font-size: 60px;
+}
+
+footer{
+    background: rgb(44, 42, 42);
+    color:rgb(255, 255, 255);
+    padding: 9px 20px;
+    text-align: center;
+}
+.burger{
+    display:none;
+    position:absolute;
+    cursor: pointer;
+    right:5%;
+    top:15px;
+}
+.line{
+    width:33px;
+    background-color: white;
+    height:4px;
+    margin:5px 3px;
+}
+.dropdown-container{
+    display:inline;
+    position:relative;
+}
+.dropdown-content{
+    position:absolute;
+    background-color:blue;
+    text-align:left;
+    min-width:100px;
+    margin: auto;
+   display: none;
+    cursor: pointer;
+}
+.dropdown-content  a{
+    display:block;
+    text-decoration: none;
+    color: white;
+    padding: 3px 27px 20px;
+    font-size: 20px;
+}
+.dropdown-content :hover{
+    background-color: rgb(172, 42, 42);
+}
+.dropdown-container:hover .dropdown-content{
+    display:block;
+}
+.box10{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.box11{
+    margin:6px 60px;
+    padding:6px 60px;
+}
+.box11 .heading{
+    font-size:17px;
+}
+.box11 h1,p{
+    color:white;
+}
+.icons{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:
+}
+.fab{
+    color: white;
+}
+#home7{
+    height:200px;
+}
+.burger{
+    display:none;
+    right: -69%;
+}
+.line {
+    width: 47px;
+    background-color: white;
+    height: 7px;
+    margin: 5px -1px;
+}
+@media only screen and (min-width:360px) and (max-width:640px){
+    .heading{
+       font-size:21px;
+   }
+    .paragraph{
+    font-size: 14px;
+   }
+    .navbar{
+       height:520px;
+       transition:all 0.7s ease-out;
+   }   
+   .navbar ul li{
+        padding-top: 25px;
+    }
+    .navbar ul li a{
+        padding:0;
+        font-size:19px;
+    }
+    #logo img {
+        height: 157px;
+        margin: 7px 242px;
+    }
+    .nav-list{
+        flex-direction:column;
+        margin-left: 194px;
+    }
+    .burger{
+        display:block;
+    }
+    .h-nav{
+        height:157px;
+    }
+    .v-class{
+        opacity:0;
+    }
+    #home2{
+        padding:0;
+    }
+   #home2 h1{
+        margin-left: 267px;
+        margin-top:-95px;
+    }
+    #home2 p{
+
+    }
+   .container1{
+       display: flex;
+       flex-direction: column;
+   }
+   .box .img1 {
+    height: 203px;
+    margin-left: 140px;
+}
+.box .img2 {
+    height: 207px;
+    display: block;
+    margin-left: 139px;
+}
+.box2 p{
+    margin-top:11px;
+    margin-left:2px;
+}
+#home3 h1{
+    margin-top:-80px;
+} 
+.container1{
+        margin: -15px 30px;
+}
+.container1 .box {
+    margin: 1px 0px;
+}
+.temp{
+    display: flex;
+    flex-direction: column;
+}
+.box3{
+    margin: 15px 2px;
+    padding: 13px 10px;
+    width: 188px;
+    height: 179px;
+    box-shadow: -1px -2px 5px blue;
+}
+.box3 h2{
+    font-size:18px;
+}
+.box4 {
+    margin-top: -51px;
+    padding: 8px 10px;
+    width: 263px;
+}
+.btn1{
+    font-size: 21px;
+    padding: 6px;
+    margin: 23px 57px;
+}
+#home9{
+    height: 116px;
+    margin-top: -35px;
+}
+#home6{
+    height:1270px;
+}
+.box13{
+    display:flex;
+    flex-direction: column;
+}
+.box5{
+    margin-top:4px;
+}
+.box5 img {
+    height: 230px;
+    width: 330px;
+    display: block;
+    padding: 10px;
+    margin-top:8px;
+}
+.box5 h2{
+    margin-top:-15px;
+}
+.box10{
+    display:flex;
+    flex-direction: column;
+}
+}
